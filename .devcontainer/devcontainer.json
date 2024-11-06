@@ -1,0 +1,19 @@
+{
+	"name": "Jupyter and Flask DevContainer",
+	"build": {
+	  "dockerfile": "Dockerfile",
+	  "context": "..",
+	  "args": {
+		"VARIANT": "3.9-bullseye"
+	  }
+	},
+	"postCreateCommand": "bash .devcontainer/setup.sh",
+	// "postStartCommand": "bash .devcontainer/run_services.sh",
+	"remoteUser": "vscode",
+	"containerEnv": {
+	  "FLASK_ENV": "development",
+	  "PYTHONUNBUFFERED": "1"
+	}
+	// "runArgs": ["--gpus", "all"] // Removed or commented out as GPU support isn't typically available on macOS
+  }
+  

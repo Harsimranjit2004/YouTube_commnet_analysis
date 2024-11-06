@@ -1,0 +1,6 @@
+artifact_location: file:///Users/harsimranjitsingh/Desktop/youtube_comment_analysis/notebooks/mlruns/458713702120371775
+creation_time: 1730316304453
+experiment_id: '458713702120371775'
+last_update_time: 1730316304453
+lifecycle_stage: active
+name: exp 3 - tfidf trigram max_feature
